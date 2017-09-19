@@ -20,7 +20,7 @@ public interface FuncionarioService {
 	 * @param id
 	 * @return
 	 */
-	Funcionario buscarPorId(Long id);
+	Optional<Funcionario> buscarPorId(Long id);
 	
 	/**
 	 * Retorna um funcionario de acordo com o CPF

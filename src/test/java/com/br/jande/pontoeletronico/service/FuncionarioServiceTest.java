@@ -45,8 +45,8 @@ public class FuncionarioServiceTest {
 	
 	@Test
 	public void testBuscarFuncionarioPorId()throws Exception{
-		Funcionario funcionario  = this.funcionarioService.buscarPorId(1l);
-		assertNotNull(funcionario);
+		Optional<Funcionario> funcionario  = this.funcionarioService.buscarPorId(1l);
+		assertTrue(funcionario.isPresent());
 	}
 	
 	@Test
