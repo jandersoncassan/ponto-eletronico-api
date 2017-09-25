@@ -82,11 +82,25 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-	
+
 		<!-- TRATAMENTO JSON PARSER OPTIONAL -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.datatype</groupId>
 			<artifactId>jackson-datatype-jdk8</artifactId>
+		</dependency>
+
+		<!-- COMMONS -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.6</version>
+		</dependency>
+
+		<!-- TOKEN -->
+		<dependency>
+			<groupId> io.jsonwebtoken </groupId>
+			<artifactId> jjwt </artifactId>
+			<version> 0.7.0 </version>
 		</dependency>
 	</dependencies>
 
